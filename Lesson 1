@@ -1,0 +1,20 @@
+1.
+#Write a program that asks the user to enter a character, checks, and prints whether the character is a consonant or a vowel.
+
+a=input('Enter a = ')
+if a in "aueiowyAEUIOWY": 
+    print('the character is  a vowel')
+else:
+    print('the character is a consonant')
+
+
+2. 
+Write a program that asks the user to enter a number, checks, and prints whether the number is even or odd.
+
+num = 0
+print('Enter number:')
+num = int(input())
+if num % 2 == 0:
+	print(num, 'is odd')
+else:
+	print(num, 'is even')
